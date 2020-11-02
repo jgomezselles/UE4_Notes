@@ -1,6 +1,8 @@
 # UE4 Multiplayer - Notes
 These are notes taken from some sessions held with @Balgy and Udemy's [Unreal Multiplayer Master: Video Game Dev In C++](https://www.udemy.com/course/unrealmultiplayer/) course. These are personal notes, so some things may be inaccurate.
 
+The reader is advised to take a look to the [UE4 Network Compendium](http://cedric-neukirchen.net/Downloads/Compendium/UE4_Network_Compendium_by_Cedric_eXi_Neukirchen.pdf) created by [Cedric 'eXi' Neukirchen](http://cedric-neukirchen.net), which provides a large and comprehensive summary of the most useful assets provided by UE4, and is a perfect support documentation to keep always at hand.
+
 # Playground assets
 UE4 Editor provides a starting project which can serve to play around with the concepts explained in this document. It can be created by starting a new project of kind [Third Person](https://docs.unrealengine.com/en-US/Resources/Templates/ThirdPerson/index.html).
 
