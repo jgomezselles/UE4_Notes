@@ -39,7 +39,7 @@ The server can be run by one player. I does not need to be in a different machin
 > Official [doc](https://docs.unrealengine.com/en-US/Gameplay/Networking/Server/index.html).
 
 # Authority & Replication
-To detect, distinguish or decide code to be run in the server and/or in the clients, the function `bool` [AAcator::HasAuthority()](https://docs.unrealengine.com/en-US/API/Runtime/Engine/GameFramework/AActor/HasAuthority/index.html), returns `true` if it's on the server and `false` otherwise.
+To detect, distinguish or decide code to be run in the server and/or in the clients, the function `bool` [AActor::HasAuthority()](https://docs.unrealengine.com/en-US/API/Runtime/Engine/GameFramework/AActor/HasAuthority/index.html), returns `true` if it's on the server and `false` otherwise.
 
 An `AActor` is one of the building blocks to provide replication through the network. To achieve a certain property to be replicated (updated/noticed) across the clients by the server, **both** the `AAcator` and the wanted `UProperty` needs to be set as `Replicated`.
 
